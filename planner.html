@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Planner</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- FullCalendar CSS -->
+   <!-- FullCalendar Styles -->
+<link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css' rel='stylesheet' />
+
+<!-- FullCalendar Script Bundle (No MIME error) -->
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/index.global.min.js'></script>
+<link href='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.css' rel='stylesheet' />
+  <!-- FullCalendar JS -->
+
+</head>
+<body>
+
+<header>
+  <div class="banner-header">
+    <img src="assets/write.jpg" alt="MomAi Journal Banner">
+  </div>
+  <h1>Welcome to MomSpace 💕</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="entries.html">Journal Entries</a>
+    <a href="planner.html">Planner</a>
+    <a href="momhacks.html">MomHacks</a>
+    <a href="momcare.html">MomCare</a>
+  </nav>
+</header>
+
+<main>
+
+
+
+
+  <!-- Journal & Planner Side Graphics -->
+  <div class="side-wrapper">
+    <img src="assets/empowerment.jpg" alt="Planning Cozy Moment" class="planner-side-image" />
+<section class="planner-box">
+      <h2>📅 Plan Your Dreams</h2>
+      <p>Keep track of your daily, weekly, or monthly plans.</p>
+        <section class="planner-placeholder">
+    
+  <h3>📝 Get it done! Plans</h3>
+  <div class="planner-input">
+    <input type="text" id="planner-task" placeholder="What’s the plan, Mama?" />
+    <button id="add-task">➕ Plan Your Day</button>
+  </div>
+
+  <ul id="planner-task-list" class="task-list">
+    <!-- Tasks will appear here -->
+  </ul>
+</section>
+
+      <button id="plan-button">Plan Your Day 📅</button>
+
+
+    </section>
+    <img src="assets/girlpower.jpg" alt="Planning Cozy Moment" class="planner-side-imageR" />
+  </div>
+
+
+
+<div class="planner-placeholder">
+
+            <section class="task-bank">
+  <h3>🌟 Drag a Task into Your Calendar</h3>
+  <div id="external-events">
+    <div class='fc-event'>🛒 Grocery Run</div>
+    <div class='fc-event'>📞 Call Pediatrician</div>
+    <div class='fc-event'>🧺 Laundry Day</div>
+    <div class='fc-event'>🧘 Me Time</div>
+  </div>
+</section>
+
+       <section class="calendar-section">
+
+         <h2>📅 Your MomAi Calendar</h2>
+                  <div id="calendar"></div>
+       </section>
+
+        </div>
+
+
+
+
+  <!-- Newsletter Section -->
+  <div class="side-wrapper">
+    <img src="assets/blackwhiteemail.png" alt="Mail Graphic Left" class="news-side-image" />
+    <section class="newsletter-section">
+      <img src="assets/newsletter.jpg" alt="Newsletter Cozy Moment" class="news-image" />
+      <h2>Subscribe to our Newsletter 💌</h2>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email" />
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+    <img src="assets/mail.png" alt="Mail Graphic Right" class="news-side-imageR" />
+  </div>
+
+  <!-- Dream Gallery -->
+  <section class="photo-gallery">
+    <h2>📝 BE the Change you Want to SEE!</h2>
+    <div class="gallery-grid">
+      <img src="assets/womenworld.png" alt="Mom journaling" />
+      <img src="assets/shadowgirls.png" alt="Affirmation graphic" />
+      <img src="assets/womenhistory.png" alt="Open journal with tea" />
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2025 MomSpace. All rights reserved. Made with ❤️ by KayDreams</p>
+</footer>
+<!-- FullCalendar JS (LOAD THIS FIRST) -->
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.8/main.min.js'></script>
+
+<!-- Your custom scripts -->
+<script src="js/journal.js"></script>
+<script src="js/planner.js"></script>
+
+</body>
+</html>

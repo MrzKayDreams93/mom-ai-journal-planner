@@ -1,0 +1,679 @@
+/*newsletter section styles*/
+
+.newsletter-section {
+border-color: #f09b5b;
+border-style: dotted;
+  text-align: center;
+  padding: 2rem;
+  background-color: #98d1e6;  
+
+}
+
+.newsletter-form {
+  margin-top: 1rem;
+
+}
+
+.newsletter-form input[type="email"] {
+  padding: 0.5rem;
+  max-width: 25px;;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.newsletter-form button {
+  padding: 0.5rem 1rem;
+  margin-left: 10px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/*mom images section styles*/
+.mom-images {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.image-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.image-grid img {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+/*relaxing mom images styles*/
+
+.relax-mom-image {
+  width: 250px;
+  height: auto;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+/*general styles*/
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #ffe4ec, #e6f7ff);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #ffb3c6;
+  padding: 1rem;
+  color: white;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 1rem;
+  background-color: #ff69b4;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff85c1;
+}
+
+
+
+
+
+/*affirmation styles*/
+
+.affirmation {
+  margin: 2rem auto;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #d63384;
+  text-align: center;
+}
+
+
+
+
+/*header banner styles*/
+.header-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 30px auto;
+  padding: 0 20px;
+  flex-wrap: nowrap;
+  max-width: 40%;
+}
+
+.header-banner img {
+  width: 80%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.welcome-section h2 {
+  font-size: 2rem;
+  color: #d63384;
+  .side-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 30px 0;
+  padding: 0 20px;
+}
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: #f09b5b;
+}
+
+
+
+/*entries photo gallery styles*/
+.photo-gallery {
+  padding: 40px 20px;
+  text-align: center;
+  background: #fff6fb;
+  border-radius: 20px;
+  margin: 40px auto;
+  max-width: 1000px;
+  border-style: dotted;
+  border-color: plum;
+}
+
+.photo-gallery h2 {
+  font-size: 1.8rem;
+  color: #d94f9f;
+  margin-bottom: 20px;
+}
+
+.gallery-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+
+  
+}
+
+.gallery-grid img {
+  width: 30%;
+  min-width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+    border-style: groove;
+  border-color: plum;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
+
+
+/*banner header styles*/
+
+.banner-header img {
+  width: 100%;
+  height: auto;
+  max-height: 800px; /* or adjust to your preferred size */
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 12px; /* Optional: soft rounded corners */
+}
+
+
+/*hero banner styles*/
+
+.hero-banner {
+  width: 85%;
+  overflow: hidden;
+}
+/*
+.hero-image {
+  width: auto;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+*/
+
+/*planner side image styles*/
+.planner-side-image {
+  float: left;
+  width: 20%;
+  max-width: 300px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border-style: groove;
+  border-color: plum;
+}
+
+/*planner side image right styles*/
+
+.planner-side-imageR {
+  float: right;
+  width: 20%;
+  max-width: 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border-style: groove;
+  border-color: plum;
+}
+
+/*planner interactive styles*/
+
+.planner-box {
+  text-align: center;
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 600px;
+  background: #fff;
+  border: 2px dashed #f4a6c7;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.planner-placeholder {
+  margin-top: 1rem;
+  background-color: #ffeaf4;
+  padding: 1.2rem;
+  border-radius: 10px;
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  color: #333;
+}
+
+.planner-placeholder .tiny-note {
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 0.5rem;
+}
+
+
+
+
+/* Tips page layout styles */
+.tips-intro {
+  text-align: center;
+  padding: 2rem;
+  background-color: #ffeaf4;
+  color: #a94a7c;
+}
+
+.tips-intro h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.tips-intro p {
+  font-size: 1.1rem;
+}
+
+/* Shared image grid */
+.mom-images {
+  padding: 2rem;
+  text-align: center;
+}
+
+.mom-images h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #d1489a;
+}
+
+.image-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.image-grid img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  object-fit: cover;
+}
+
+/* Newsletter section styling */
+.newsletter-section {
+  text-align: center;
+  padding: 2rem;
+  background-color: #ffe0f0;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  background-color: #ff80b5;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.newsletter-form button:hover {
+  background-color: #e95c9e;
+}
+
+
+/* Newsletter side images styles */
+.newsletter-image {
+  width: 150px;
+  height: auto;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.newsletter-imageR {
+  width: 150px;
+  height: auto;
+  margin-top: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.news-image {
+  width: 200px;
+  height: auto;
+  margin-top: 15px;
+  border-radius: 10px;
+    border-style: groove;
+  border-color: rgb(159, 62, 107);
+}
+
+/* Newsletter Side Images 
+.news-graphics-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto 0;
+  max-width: 900px;
+  padding: 0 20px;
+}
+
+.news-graphics-container img {
+  width: 180px;
+  max-width: 100%;
+  border-radius: 10px;
+  border-style: groove;
+  border-color: plum;
+}
+
+*/
+
+
+
+/*home page Flex container for side image + center content */
+
+
+.side-wrapper-home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 30px 0;
+  padding: 0 20px;
+}
+
+
+
+
+
+/* planner/newsletter Flex container for side image + center content */
+.side-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 30px 0;
+  padding: 0 20px;
+}
+
+/* Newsletter/Planner side image styles */
+.planner-side-image, .planner-side-imageR, .news-side-imageR {
+  width: 20%;
+  max-width: 250px;
+  border-radius: 10px;
+  border: 2px groove plum;
+}
+
+
+
+.news-side-image {
+   width: 20%;
+  max-width: 250px;
+  border-radius: 10px;
+
+}
+
+/* Center sections (planner + newsletter) */
+.planner-box,
+.newsletter-section {
+  width: 50%;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Newsletter form inputs */
+.newsletter-form input[type="email"] {
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+  width: 70%;
+  max-width: 300px;
+}
+
+.newsletter-form button {
+  padding: 10px 20px;
+  background-color: #f283b6;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+
+
+
+/* Calendar Section Styles */
+.calendar-section {
+  background-color: #fff0f5;
+  padding: 30px;
+  margin: 40px auto;
+  max-width: 900px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* FullCalendar Container Fix */
+/* === MomAi Calendar Styling Fix === */
+#calendar {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  min-height: 600px; /* This is the missing piece! */
+}
+
+
+/* Checkmark for calender/Event Styles */
+
+.fc-event.custom-event {
+  background-color: #fcddec !important;
+  border: 1px solid #ff89c0 !important;
+  color: #333;
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 4px;
+  border-radius: 8px;
+  position: relative;
+}
+
+/* Add a visual checkmark in the corner */
+.fc-event.custom-event::after {
+  content: '✔️';
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  font-size: 0.8rem;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 1px;
+}
+
+.fc-event.custom-event {
+  background-color: #fcddec !important;
+  color: #c2185b !important;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  padding: 2px 6px;
+  position: relative;
+}
+
+.fc-event.custom-event::after {
+  content: "✔";
+  font-size: 14px;
+  color: #c2185b;
+  position: absolute;
+  top: 2px;
+  right: 6px;
+}
+
+
+/* External Events/Drag and Drop Styles */
+/* Drag area for events */
+.task-bank {
+  padding: 10px;
+  margin-bottom: 20px;
+  background: #fffafc;
+  border: 2px dashed pink;
+  border-radius: 12px;
+  width: 200px;
+  height:  auto;
+  float: right;
+}
+
+#external-events {
+  margin-top: 10px;
+}
+
+.fc-event {
+  background-color: #f8c8dc;
+  border: 1px solid #f08ab1;
+  padding: 8px;
+  margin-bottom: 8px;
+  cursor: grab;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+
+
+/* Planner Placeholder Styles (task list) 
+
+.planner-placeholder {
+  background: #fff0f5;
+  border: 2px dashed #f8b1c5;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(255, 192, 203, 0.2);
+  text-align: center;
+}
+*/
+
+
+.planner-input {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.planner-input input {
+  padding: 10px;
+  border: 2px solid #f8b1c5;
+  border-radius: 8px;
+  width: 60%;
+}
+
+.planner-input button {
+  padding: 10px 14px;
+  background-color: #f8b1c5;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  background: #ffe4ec;
+  padding: 10px;
+  margin: 6px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-list button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+
+/* mom hack page content  */
+
+.quote-box {
+  background-color: #ffeef5;
+  border-left: 5px solid #f8b1c5;
+  padding: 10px 15px;
+  margin: 15px auto;
+  font-style: italic;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.momhack-content {
+  background-color: #fff7fa;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+
+.planner-box {
+  float: left;
+}

@@ -1,0 +1,107 @@
+/*newsletter section styles*/
+
+.newsletter-section {
+  background-color: #ffe6f2;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 12px;
+  margin-top: 2rem;
+}
+
+.newsletter-form {
+  margin-top: 1rem;
+}
+
+.newsletter-form input[type="email"] {
+  padding: 0.5rem;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.newsletter-form button {
+  padding: 0.5rem 1rem;
+  margin-left: 10px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.mom-images {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.image-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.image-grid img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/*general styles*/
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #ffe4ec, #e6f7ff);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #ffb3c6;
+  padding: 1rem;
+  color: white;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+section {
+  margin-top: 2rem;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 1rem;
+  background-color: #ff69b4;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff85c1;
+}
+
+
+
+
+
+/*affirmation styles*/
+
+.affirmation {
+  margin: 2rem auto;
+  font-style: italic;
+  font-size: 1.2rem;
+  color: #d63384;
+  text-align: center;
+}
